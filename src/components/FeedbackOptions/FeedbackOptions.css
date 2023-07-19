@@ -1,0 +1,14 @@
+.feedbackButtons{
+    display: flex;
+    gap: 8px;
+}
+
+.button-feedback{
+    background-color: hsl(0, 0%, 70%);
+    transition: transform 0.3s ease;
+}
+
+.button-feedback:hover{
+    transform: scale(1.1);
+    background-color: hsl(0, 0%, 90%);
+}
